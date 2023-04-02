@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'Hello World'
+                bat 'set'
+                bat 'Hello World'
             }
         }
     }
