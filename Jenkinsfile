@@ -1,8 +1,6 @@
 /* Requires the Docker Pipeline plugin  test2*/
 pipeline {
-    agent {
-        any
-    }
+    agent any
     stages {
         stage('build') {
             steps {
